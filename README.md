@@ -8,6 +8,7 @@ What is a Multi Layer Perceptron? see [here](https://www.youtube.com/watch?v=7Ya
 ![MLP Training Process](decision_regions.gif)
 
 Decision regions for a simple dataset with 3 classes visualized over 130'000 steps until convergence (Train Accuracy: 1.0)
+
 ---
 
 
