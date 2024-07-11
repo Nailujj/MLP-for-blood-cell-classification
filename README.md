@@ -2,11 +2,14 @@
 
 This project aims to classify blood cell types using various machine learning models, with a particular focus on the implementation and optimization of a custom Multi-Layer Perceptron (MLP) classifier.
 
+What is a Multi Layer Perceptron? see [here](https://www.youtube.com/watch?v=7YaqzpitBXw&t)
+
+
 ![MLP Training Process](decision_regions.gif)
 
 
 
-Implementation [here](Analysis_and_MLP.ipynb)
+My implementation [here](Analysis_and_MLP.ipynb)
 
 ## Table of Contents
 
