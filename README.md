@@ -5,9 +5,9 @@ This project aims to classify blood cell types using various machine learning mo
 What is a Multi Layer Perceptron? see [here](https://www.youtube.com/watch?v=7YaqzpitBXw&t)
 
 ---
-![MLP Training Process](decision_regions.gif)
+Decision regions calculated by my custom MLP for a simple dataset with 3 classes visualized over 130'000 steps until convergence (Train Accuracy: 1.0)
 
-Decision regions for a simple dataset with 3 classes visualized over 130'000 steps until convergence (Train Accuracy: 1.0)
+![MLP Training Process](decision_regions.gif)
 
 ---
 
