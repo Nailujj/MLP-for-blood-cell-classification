@@ -56,10 +56,6 @@ To prepare the data for modeling, several preprocessing steps were applied:
 - **Training:** Used backpropagation for training and vectorized operations for efficiency.
 - **Optimization:** Manually optimized hyperparameters to achieve the best performance.
 
-\[ 
-J(\mathbf{w}) = \frac{1}{N} \sum_{i=1}^{N} \sum_{k=1}^{K} \left( - y_k^{(i)} \log \hat{y}_k^{(i)} \right) + C 
-\]
-
 
 #### Sklearn MLP
 
