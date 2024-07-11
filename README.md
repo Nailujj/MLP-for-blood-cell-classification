@@ -94,5 +94,5 @@ The performance of each model was evaluated and compared based on the following 
 
 The analysis shows that SVM and the custom MLP model deliver the best performance in terms of accuracy and F1-scores. While Random Forest and sklearn MLP are also very capable, logistic regression performs acceptably as a baseline model. The dummy models serve as useful benchmarks to highlight the superiority of the trained models.
 
-The custom MLP model could be further optimized with more computational power and time, potentially outperforming all other models.
+The custom MLP model could be further optimized with more computational power and time ( i used 4x4.5 GHz Cores ~ 30 minutes), potentially outperforming all other models.
 
