@@ -14,6 +14,9 @@ Decision regions calculated by my custom MLP for a simple dataset with 3 classes
 
 My implementation [here](Analysis_and_MLP.ipynb)
 
+
+---
+
 ## Table of Contents
 
 - [Introduction](#introduction)
