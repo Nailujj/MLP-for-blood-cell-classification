@@ -1,4 +1,4 @@
-# Blood Cell Classification Project
+# Blood Cell Classification using a custom MLP approach
 
 This project aims to classify blood cell types using various machine learning models, with a particular focus on the implementation and optimization of a custom Multi-Layer Perceptron (MLP) classifier.
 
