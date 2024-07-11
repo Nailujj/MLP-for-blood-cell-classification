@@ -6,7 +6,7 @@ This project aims to classify blood cell types using various machine learning mo
 
 
 
-[Implementation](Analysis_and_MLP.ipynb)
+Implementation [here](Analysis_and_MLP.ipynb)
 
 ## Table of Contents
 
