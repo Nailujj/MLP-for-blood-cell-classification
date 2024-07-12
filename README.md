@@ -1,5 +1,8 @@
 # Blood Cell Classification using a custom MLP approach
 
+#### Actual implementation in "Analysis_and_MLP.ipynb" [here](Analysis_and_MLP.ipynb)
+
+
 This project aims to classify blood cell types using various machine learning models, with a particular focus on the implementation and optimization of a custom Multi-Layer Perceptron (MLP) classifier.
 
 What is a Multi Layer Perceptron? see [here](https://www.youtube.com/watch?v=7YaqzpitBXw&t)
@@ -10,10 +13,6 @@ Decision regions calculated by my custom MLP for a simple dataset with 3 classes
 ![MLP Training Process](decision_regions.gif)
 
 ---
-
-
-My implementation [here](Analysis_and_MLP.ipynb)
-
 
 ---
 
