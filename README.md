@@ -16,16 +16,6 @@ Decision regions calculated by my custom MLP for a simple dataset with 3 classes
 
 ---
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Data Analysis](#data-analysis)
-- [Preprocessing](#preprocessing)
-- [Model Implementation](#model-implementation)
-- [Results and Discussion](#results-and-discussion)
-- [Conclusion](#conclusion)
-- [GIF Illustration](#gif-illustration)
-
 ## Introduction
 
 The goal of this project is to accurately classify different types of blood cells using machine learning techniques. The project includes the implementation of several models, such as Random Forest, Support Vector Machine (SVM), and Multi-Layer Perceptron (MLP), with a detailed focus on a custom MLP classifier i built.
