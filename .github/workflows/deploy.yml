@@ -3,7 +3,7 @@ name: Deploy to Heroku
 on:
   push:
     branches:
-      - main  # or the branch you want to deploy from
+      - main
 
 jobs:
   deploy:
@@ -27,6 +27,7 @@ jobs:
         HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
       run: |
         docker buildx build --platform linux/amd64 -t registry.heroku.com/${{ secrets.HEROKU_APP_NAME }}/web . --push
+        docker push registry.heroku.com/${{ secrets.HEROKU_APP_NAME }}/web
         heroku container:release web -a ${{ secrets.HEROKU_APP_NAME }}
 
     - name: Ensure the app is running
