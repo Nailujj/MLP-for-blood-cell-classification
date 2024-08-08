@@ -84,3 +84,19 @@ The analysis shows that SVM and the custom MLP model deliver the best performanc
 
 The custom MLP model could be further optimized with more computational power and time ( i used 4x4.5 GHz Cores ~ 30 minutes), potentially outperforming all other models.
 
+
+
+
+# To run mlflow in Docker:
+
+1. Build the image:
+```bash 
+docker build -t mlflow-docker .
+```
+
+2. Run the container:
+```bash
+docker run -p 5000:5000 mlflow-docker
+```
+
+
