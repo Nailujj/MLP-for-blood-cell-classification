@@ -1,0 +1,8 @@
+# Ignore files and directories in the Docker build context
+.git
+.github
+__pycache__
+*.pyc
+.DS_Store
+mlruns
+logs
