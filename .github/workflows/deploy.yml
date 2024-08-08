@@ -21,8 +21,7 @@ jobs:
 
       - name: Build, push and release Docker image
         run: |
-          docker build -t registry.heroku.com/${{ secrets.HEROKU_APP_NAME }}/web .
-          docker push registry.heroku.com/${{ secrets.HEROKU_APP_NAME }}/web
+          docker buildx build --platform linux/amd64 -t registry.heroku.com/${{ secrets.HEROKU_APP_NAME }}/web . --push
           heroku container:release web --app ${{ secrets.HEROKU_APP_NAME }}
         env:
           HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
